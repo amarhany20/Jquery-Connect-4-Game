@@ -11,6 +11,10 @@ Welcome to the Connect 4 game project! This project demonstrates the use of jQue
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Versions](#versions)
+    - [Version 1](#version-1)
+    - [Version 2](#version-2)
+    - [Version 3](#version-3)
   - [Try It Out](#try-it-out)
 
 ## Introduction
@@ -52,6 +56,27 @@ To run this project locally, follow these steps:
 ## Usage
 
 To play the game, open the `index.html` file in a web browser. The game board will be displayed, and you can start playing by clicking on the columns to drop your discs. The game will automatically detect a win or a draw and will display a message accordingly.
+
+## Versions
+
+### Version 1
+
+- Basic Connect 4 game using jQuery for DOM manipulation.
+- Color-based win detection logic.
+- Simple user prompts for player names and turn indication.
+
+### Version 2
+
+- Improved UI with additional status and history displays.
+- Bug fixes and enhancements for a smoother gaming experience.
+- Added a refresh button to restart the game without reloading the page.
+
+### Version 3
+
+- Optimized game logic using a 2D array to track the state of the game instead of relying on button colors.
+- More efficient win detection algorithm.
+- Clear separation of game state and UI logic.
+- Enhanced performance and maintainability.
 
 ## Try It Out
 
