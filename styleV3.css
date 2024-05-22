@@ -1,0 +1,29 @@
+table {
+  border: 1px solid black;
+  width: 400px;
+  height: 400;
+  table-layout: fixed;
+}
+
+td {
+  border: 1px solid black;
+  height: 60px;
+  border-radius: 50%;
+}
+
+td button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: rgb(128, 128, 128);
+  cursor: pointer;
+  border-radius: 50% !important;
+}
+
+button.player1 {
+  background-color: rgb(86, 151, 255);
+}
+
+button.player2 {
+  background-color: rgb(237, 45, 73);
+}

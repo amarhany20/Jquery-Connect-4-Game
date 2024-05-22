@@ -4,28 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Connect 4 Game - Choose Version</title>
+    <title>Connect 4 V3</title>
+    <link rel="stylesheet" href="styleV3.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="container text-center">
-        <h1>Welcome to my Connect 4 game</h1>
-        <h2>Choose the Game Version</h2>
+        <h1>Connect 4 V3</h1>
+        <h2>Status</h2>
+        <h3 id="status">Enter your names in the prompt</h3>
+        <h2>Last Play</h2>
+        <h3 id="history"></h3>
 
-        <div class="row">
-            <div class="col-4">
-                <a class="btn btn-primary" href="gameV1.html">Version 1 - from the course</a>
-            </div>
-            <div class="col-4">
-                <a class="btn btn-primary" href="gameV2.html">Version 2 refined</a>
-            </div>
-            <div class="col-4">
-                <a class="btn btn-primary" href="gameV3.html">Version 3 refined and efficient</a>
-            </div>
-        </div>
+        <table class="mx-auto board mt-5"></table>
+        <button id="refreshBtn" class="btn btn-primary mt-3" style="display:none;">Restart Game</button>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="scriptV3.js"></script>
 </body>
 
 </html>
